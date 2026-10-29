@@ -1,9 +1,6 @@
-# Proyecto de Aula – Inteligencia de Negocios
-
 ## Hotel Brisas de la Tatacoa S.A.S.
 
-**Proyecto de aula – Corte 3**  
-**Asignatura:** Electiva Inteligencia de Negocios 2026-B  
+
 **Fase:** 0 – Definición
 
 ---
@@ -64,12 +61,3 @@ El hotel cuenta con información sobre sus reservas, pero no dispone de una herr
 - **Uso:** análisis de reservas, ocupación, ingresos, cancelaciones, tipos de habitación y canales de reserva.
 
 ---
-
-## Estado del proyecto
-
-| Fase | Estado |
-|---|---|
-| Fase 0 – Definición | 🟡 En desarrollo |
-| Fase 1 – Datos y ETL | ⚪ Pendiente |
-| Fase 2 – Modelo, medidas y tablero | ⚪ Pendiente |
-| Fase 3 – Historia, informe y sustentación | ⚪ Pendiente |
