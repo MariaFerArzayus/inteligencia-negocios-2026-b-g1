@@ -1,0 +1,42 @@
+# Fase 1 – Datos y ETL
+
+## Proyecto
+**Hotel Brisas de la Tatacoa S.A.S.**
+
+## Descripción
+Esta fase contiene la preparación, transformación y documentación de los datos utilizados para el proyecto de inteligencia de negocios del hotel.
+
+## Datos utilizados
+El proyecto trabaja con datos ficticios correspondientes al periodo enero–diciembre de 2025.
+
+- Reservas: 1.200 registros.
+- Disponibilidad: 5.475 registros.
+- Reprocesos: 310 registros.
+- Calendario: 365 registros.
+- Habitaciones: 15 registros.
+- Clientes: 398 registros.
+- Canales: 5 registros.
+- Tipos de reproceso: 5 registros.
+
+## Proceso ETL
+Se realizaron las siguientes actividades en Power Query:
+
+1. Revisión y estandarización de tipos de datos.
+2. Reemplazo de valores nulos en `motivo_cancelacion` por "No aplica".
+3. Estandarización del estado "No show" a "No Show".
+4. Revisión de la calidad de las columnas.
+5. Conservación de las columnas necesarias para el análisis.
+
+## Diccionario de datos
+Se documentaron las tablas, columnas, tipos de datos, descripciones y ejemplos.
+
+## Grano de las tablas
+- Fact_Reserva: una fila por reserva.
+- Fact_Disponibilidad: una fila por habitación por día.
+- Fact_Reproceso: una fila por gestión administrativa.
+
+## Archivo principal
+`modelo_y_guia.xlsx`
+
+## Empresa
+Hotel ficticio creado con fines académicos.
